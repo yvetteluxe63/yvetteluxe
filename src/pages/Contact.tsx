@@ -102,7 +102,7 @@ const Contact = () => {
                     <MapPin className="text-orange-500" size={20} />
                     <div>
                       <p className="font-semibold">Address</p>
-                      <p className="text-gray-600">123 Commerce Street, Accra, Ghana</p>
+                      <p className="text-gray-600">Aboadze, Takoradi, Ghana</p>
                     </div>
                   </div>
                 </CardContent>
