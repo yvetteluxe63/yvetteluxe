@@ -151,7 +151,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     <header className="md:hidden bg-white shadow-sm border-b">
       <div className="flex items-center justify-between px-4 py-3">
         <Link to="/" className="text-xl font-bold text-orange-500">
-          ShopApp
+          Yvette Luxe.
         </Link>
         <div className="flex items-center space-x-2">
           <UserProfile />

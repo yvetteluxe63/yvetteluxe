@@ -61,7 +61,7 @@ const Index = () => {
     },
 
     {
-      id: 3,
+      id: 4,
       name: "Maa Ansah",
       initials: "MA",
       text: "I've been shopping here for months and I'm always impressed. The mobile money payment is so convenient and secure. Love this store!",
@@ -118,7 +118,8 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Features */}
+        
+        <div className=""></div>{/* Features */}
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-3 gap-8">
