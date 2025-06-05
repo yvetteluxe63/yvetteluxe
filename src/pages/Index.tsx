@@ -117,37 +117,6 @@ const Index = () => {
             </div>
           </div>
         </section>
-
-        
-        <div className=""></div>{/* Features */}
-        <section className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="text-center group animate-fade-in stagger-1">
-                <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-200 transition-all duration-300 group-hover:scale-110 animate-float">
-                  <Truck className="text-orange-500 transition-transform duration-300 group-hover:scale-110" size={24} />
-                </div>
-                <h3 className="text-lg font-semibold mb-2 group-hover:text-orange-500 transition-colors duration-300">Free Delivery</h3>
-                <p className="text-gray-600 transition-all duration-300 group-hover:text-gray-800">Free shipping on orders over $50</p>
-              </div>
-              <div className="text-center group animate-fade-in stagger-2">
-                <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-200 transition-all duration-300 group-hover:scale-110 animate-float" style={{animationDelay: '1s'}}>
-                  <Shield className="text-orange-500 transition-transform duration-300 group-hover:scale-110" size={24} />
-                </div>
-                <h3 className="text-lg font-semibold mb-2 group-hover:text-orange-500 transition-colors duration-300">Secure Payment</h3>
-                <p className="text-gray-600 transition-all duration-300 group-hover:text-gray-800">100% secure mobile money payments</p>
-              </div>
-              <div className="text-center group animate-fade-in stagger-3">
-                <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-200 transition-all duration-300 group-hover:scale-110 animate-float" style={{animationDelay: '2s'}}>
-                  <Headphones className="text-orange-500 transition-transform duration-300 group-hover:scale-110" size={24} />
-                </div>
-                <h3 className="text-lg font-semibold mb-2 group-hover:text-orange-500 transition-colors duration-300">24/7 Support</h3>
-                <p className="text-gray-600 transition-all duration-300 group-hover:text-gray-800">Always here to help you</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Featured Products */}
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
@@ -205,6 +174,38 @@ const Index = () => {
             </div>
           </div>
         </section>
+
+        
+        <div className=""></div>{/* Features */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="text-center group animate-fade-in stagger-1">
+                <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-200 transition-all duration-300 group-hover:scale-110 animate-float">
+                  <Truck className="text-orange-500 transition-transform duration-300 group-hover:scale-110" size={24} />
+                </div>
+                <h3 className="text-lg font-semibold mb-2 group-hover:text-orange-500 transition-colors duration-300">Free Delivery</h3>
+                <p className="text-gray-600 transition-all duration-300 group-hover:text-gray-800">Free shipping on orders over Ghs500</p>
+              </div>
+              <div className="text-center group animate-fade-in stagger-2">
+                <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-200 transition-all duration-300 group-hover:scale-110 animate-float" style={{animationDelay: '1s'}}>
+                  <Shield className="text-orange-500 transition-transform duration-300 group-hover:scale-110" size={24} />
+                </div>
+                <h3 className="text-lg font-semibold mb-2 group-hover:text-orange-500 transition-colors duration-300">Secure Payment</h3>
+                <p className="text-gray-600 transition-all duration-300 group-hover:text-gray-800">100% secure mobile money payments</p>
+              </div>
+              <div className="text-center group animate-fade-in stagger-3">
+                <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-200 transition-all duration-300 group-hover:scale-110 animate-float" style={{animationDelay: '2s'}}>
+                  <Headphones className="text-orange-500 transition-transform duration-300 group-hover:scale-110" size={24} />
+                </div>
+                <h3 className="text-lg font-semibold mb-2 group-hover:text-orange-500 transition-colors duration-300">24/7 Support</h3>
+                <p className="text-gray-600 transition-all duration-300 group-hover:text-gray-800">Always here to help you</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        
 
         {/* Why Shop With Us */}
         <section className="py-16 bg-white">

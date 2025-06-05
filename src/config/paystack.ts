@@ -6,7 +6,7 @@
 
 export const PAYSTACK_CONFIG = {
   // 🔑 PASTE YOUR PAYSTACK PUBLIC KEY HERE
-  PUBLIC_KEY: 'pk_live_7e9af07f984bbe4188e725804e92b4aeacb5c0fd', // Replace with your actual key
+  PUBLIC_KEY: 'pk_live_508e09d75f4457645d15fb6f8a3e6abf3400d565', // Replace with your actual key
   
   // Optional: Set your currency (should match your Paystack dashboard settings)
   CURRENCY: 'GHS', // or 'NGN', 'USD', etc.

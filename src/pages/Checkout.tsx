@@ -242,7 +242,7 @@ Your Store Team
 
     // Validate Paystack key for Paystack payments
     if (formData.paymentMethod === 'paystack') {
-      if (!PAYSTACK_CONFIG.PUBLIC_KEY || PAYSTACK_CONFIG.PUBLIC_KEY === 'pk_live_ea993090b4c19248ae169d2034eee32a840b412c') {
+      if (!PAYSTACK_CONFIG.PUBLIC_KEY || PAYSTACK_CONFIG.PUBLIC_KEY === 'pk_live_508e09d75f4457645d15fb6f8a3e6abf3400d565') {
         toast.error('Paystack public key not configured. Please contact admin.');
         return;
       }
